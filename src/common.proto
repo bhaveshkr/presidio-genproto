@@ -40,6 +40,8 @@ message AnalyzeResult {
   float score = 3;
   // The location in the text of the finding
   Location location = 4;
+  // Boolean mask field to set if this result has to be masked
+  bool mask = 5;
 }
 
 // The location in the text of the finding
